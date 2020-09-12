@@ -1,0 +1,67 @@
+/* --------- Defaults ---------*/
+
+body, ul, li, img, p, h1, h2, h3, h4, h5, h6, hr {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+li {
+    list-style-type: none;
+    padding: 0 10px;
+}
+a, i {
+    text-decoration: none;
+    color: #888;
+}
+
+/* --------- Header --------- */
+
+header {
+    display: flex;
+    height: 10vh;
+}
+
+header > ul {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* --------- Main ------- */
+
+section {
+
+    
+}
+img {
+    width: 100%;
+    height: auto;
+    max-width: 271px;
+    padding-top: 109px; 
+    
+}
+
+
+/* ------------ Footer -------- */
+
+.footer1, .footer2 {
+    background: #f7f7f7;
+    padding: 20px 1.5em;
+
+}
+.footer1 > ul {
+    display: flex;
+}
+.footer2 > ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
