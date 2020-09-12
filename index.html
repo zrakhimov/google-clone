@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Google Clone</title>
+        <script src="https://use.fontawesome.com/2180418238.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <header class="header">
-        <nav>
-            <ul class="list">
-                <li class="list_item1">About</li>
-                <li class="list_item2">Store</li>
-                <li class="list_item3">Gmail</li>
-                <li class="list_item4">Images</li>
-            </ul>
-            <span>favicon</span>
-            <span>Image</span>
-        </nav>
-    </header>
+    
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <header class="header"></header>
+            <nav>
+                <ul class="list">
+                    <li class="list_item1"><a href="image_search.html">Search Images</a></li>
+                    <li class="list_item2"><a href="advanced_search.html">Advanced Search</a></li>
+                </ul>
+                <span class="fa fa-th"></span>
+                <span class="fa fa-user"></span>
+            </nav>
+        </header>
+
+        <section>
+            <img src="images/google_img.png">
+            <form action="https://google.com/search" target="_blank">
+                <span class="fa fa-search"></span>
+                <input type="text" name="q">
+                <input type="submit" value="Google Search">
+                <input type="submit" name="btnI" value="I'm Feeling Lucky">
+            </form>
+            <p>Google offered in: <a href="#">Français</a></p>
+        </section>
+
+        <footer>
+            <ul>
+                <li><a href="#">Canada</a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">How Search Works</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </footer>
     </body>
 </html>
