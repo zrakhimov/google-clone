@@ -165,18 +165,18 @@ Consistent with Google’s own CSS, the “Advanced Search” button should be b
 
 Sizning proyektingiz quyidagi talablarga javob berishi kerak:  
 
-•	**Sahifalar**. Sizning veb-saytingiz kamida uchta sahifadan iborat bo'lishi kerak: biri "Google Search" uchun, ikkinchisi Google Image Search uchun va yana biri Google Advanced Search uchun.  
-      *	Google Search sahifasining yuqori o'ng qismida rasmlarni qidirish (Image Search) yoki kengaytirilgan qidiruvga o'tish (Advanced Search) uchun link lar bo'lishi kerak. Qolgan ikkita sahifaning har birida Google Search-ga qaytish uchun yuqori o'ng tomonda link bo'lishi kerak.  
-•	**So’rov Matni**. "Google Search" sahifasida foydalanuvchi so'rovni yozishi, "Google Search" tugmachasini bosishi va shu sahifa uchun Google qidiruv natijalariga (yangi `tab`da) o'tishi kerak.  
-      *	Google-ning o'zi singari, qidiruv satri (input elementingiz) ham yumaloq burchaklar bilan markazlashtirilgan bo'lishi kerak. Qidiruv tugmasi ham markazlashtirilgan bo'lishi kerak va qidiruv satri ostida bo'lishi kerak.  
-•	**So'rov rasmlari**. Google Image Search sahifasida foydalanuvchi so'rovni yozishi, qidirish tugmachasini bosishi va shu sahifa uchun Google Image qidiruv natijalariga (yangi `tab`da) o'tishi kerak.  
-•	**Kengaytirilgan so'rov**. Google Advanced Search  sahifasida foydalanuvchi quyidagi to'rtta maydon (input element) uchun ma'lumotni taqdim etishi kerak (Google-ning kengaytirilgan qidiruv parametrlaridan olingan)
-      *	... "bularning barchasi:" bilan sahifalarni toping.  
-      *	... "soʻz birikmasi:" bilan sahifalarni toping.  
-      *	... "bu soʻzlardan biri:" bilan sahifalarni toping.  
-      *	... "ushbu so'zlarning hech biri:" bilan sahifalarni toping.  
+* **Sahifalar**. Sizning veb-saytingiz kamida uchta sahifadan iborat bo'lishi kerak: biri "Google Search" uchun, ikkinchisi Google Image Search uchun va yana biri Google Advanced Search uchun.
+   * Google Search sahifasining yuqori o'ng qismida rasmlarni qidirish (Image Search) yoki kengaytirilgan qidiruvga o'tish (Advanced Search) uchun link lar bo'lishi kerak. Qolgan ikkita sahifaning har birida Google Search-ga qaytish uchun yuqori o'ng tomonda link bo'lishi kerak.  
+* **So’rov Matni**. "Google Search" sahifasida foydalanuvchi so'rovni yozishi, "Google Search" tugmachasini bosishi va shu sahifa uchun Google qidiruv natijalariga (yangi `tab`da) o'tishi kerak.  
+   *	Google-ning o'zi singari, qidiruv satri (input elementingiz) ham yumaloq burchaklar bilan markazlashtirilgan bo'lishi kerak. Qidiruv tugmasi ham markazlashtirilgan bo'lishi kerak va qidiruv satri ostida bo'lishi kerak.  
+* **So'rov rasmlari**. Google Image Search sahifasida foydalanuvchi so'rovni yozishi, qidirish tugmachasini bosishi va shu sahifa uchun Google Image qidiruv natijalariga (yangi `tab`da) o'tishi kerak.  
+* **Kengaytirilgan so'rov**. Google Advanced Search  sahifasida foydalanuvchi quyidagi to'rtta maydon (input element) uchun ma'lumotni taqdim etishi kerak (Google-ning kengaytirilgan qidiruv parametrlaridan olingan)
+   *	... "bularning barchasi:" bilan sahifalarni toping.  
+   *	... "soʻz birikmasi:" bilan sahifalarni toping.  
+   *	... "bu soʻzlardan biri:" bilan sahifalarni toping.  
+   *	... "ushbu so'zlarning hech biri:" bilan sahifalarni toping.  
 •	**Tashqi ko'rinishi.** Google-ning o'zining Kengaytirilgan qidiruv sahifasi singari, to'rtta variantni vertikal ravishda to'plash kerak va input elementlari chap tarafda bo'lishi lozim.  
-      *	Google-ning o'z CSS-iga mos ravishda "Kengaytirilgan qidirish" tugmasi oq rang bilan ko'k rangda bo'lishi kerak. "Kengaytirilgan qidirish" tugmachasi bosilganda, foydalanuvchi o'z so'rovlari bo'yicha qidiruv natijalari (yangi `tab`da) sahifasiga o'tishi kerak.  
+   *	Google-ning o'z CSS-iga mos ravishda "Kengaytirilgan qidirish" tugmasi oq rang bilan ko'k rangda bo'lishi kerak. "Kengaytirilgan qidirish" tugmachasi bosilganda, foydalanuvchi o'z so'rovlari bo'yicha qidiruv natijalari (yangi `tab`da) sahifasiga o'tishi kerak.  
 •	**Omadingizni Sinang**. Asosiy Google Search sahifasiga "Omadingizni Sinang" tugmachasini qo'shing. Google-ning o'z xatti-harakatlariga muvofiq, ushbu havolani bosish foydalanuvchilarni to'g'ridan-to'g'ri so'rov uchun birinchi Google qidiruv natijasi web saytiga olib borishi va  natijalar sahifasini chetlab o'tishi kerak.  
 •	**Estetika**. Siz yozgan CSS imkon qadar Google-ning o'ziga xos estetikasiga mos kelishi kerak.  
 
