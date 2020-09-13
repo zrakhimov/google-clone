@@ -5,59 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Search</title>
     <script src="https://use.fontawesome.com/2180418238.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="advanced_search.css">
 </head>
 <body>
-    <header class="header"></header>
-            <nav>
-                <div class="logo">
-                    <a href="index.html"><img src="images/google_img.png"></a>
-                </div>
-                <ul class="list">
-                    <li class="list_item1"><a href="index.html">Go Back to Google Search</a></li>
-                </ul>
-                <span class="fa fa-th"></span>
-                <span class="fa fa-user"></span>
-            </nav>
-        </header>
+    <header>
+        <ul>
+            <li id="logo"><img src="images/google_img.png" > </li>
+            <li id="back_to_main"><a href="index.html">Back to Main</a></li>
+        </ul>
+    </header>
 
         <section>
             <h2>Advanced Search</h2>
-            <hr>
+            
             <div class="container">
-                <h3>Find Pages with ...</h3>
                 <form action="https://google.com/search" target="_blank">
-                    <div>
+                    <div class="header3">
+                        <h3>Find Pages with ...</h3>
+                    </div>
+                    <div class="label_item1">
                         <label for="1" >all these words: </label>
+                    </div>
+                    <div class="input_item1">
                         <input id="1" type=text name="as_q">
                     </div>
-                    <div>
+                    <div class="label_item2">
                         <label for="2" >this exact word or phrase: </label>
+                    </div>
+                    <div class="input_item2">
                         <input id="2" type=text name="as_epq">
                     </div>
-                    <div>
+                    <div class="label_item3">
                         <label for="3">any of these words: </label>
+                    </div>
+                    <div class="input_item3">
                         <input id="3" type=text name="as_oq">
                     </div>
-                    <div>
+                    <div class="label_item4">
                         <label for="4">none of these words:</label>
+                    </div>
+                    <div class="input_item4">
                         <input id="4" type=text name="as_eq">
                     </div>
-                    <input type="submit" value="Advanced Search">
+                    <div class="button">
+                        <input type="submit" value="Advanced Search">
+                    </div>
                 </form>
             </div>
         </section>
 
         <footer>
-            <ul>
-                <li><a href="#">Canada</a></li>
-                <li><a href="#">Advertising</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">How Search Works</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Settings</a></li>
-            </ul>
+            <div class="footer1">
+                <ul>
+                    <li><a href="#">Canada</a></li>
+                </ul>
+            </div>
+            <div class="footer2">
+                <ul>
+                    <li><a href="#">Advertising</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">How Search Works</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
         </footer>
 </body>
 </html>
