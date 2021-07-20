@@ -3,8 +3,27 @@
 body, ul, li, img, p, h1, h2, h3, h4, h5, h6, hr {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+      font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+        font-style: normal;
+        font-variant-caps: normal;
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 13px;
+        line-height: 27px;
+        font-family: Roboto, RobotoDraft, Arial, sans-serif;
+        font-size-adjust: none;
+        font-kerning: auto;
+        font-optical-sizing: auto;
+        font-variant-alternates: normal;
+        font-variant-east-asian: normal;
+        font-variant-ligatures: normal;
+        font-variant-numeric: normal;
+        font-variant-position: normal;
+        font-language-override: normal;
+        font-feature-settings: normal;
+        font-variation-settings: normal;
 }
+
 li {
     list-style-type: none;
     padding: 0 10px;
@@ -52,6 +71,7 @@ section {
     width: 100%;
     max-width: 271px;
     padding-top: 109px; 
+    margin-top: 50px;
 }
 /* ------  Search Bar ----------*/
 .search_bar {
@@ -63,12 +83,14 @@ section {
 .search_bar input {
     outline: none;
     font-size: 16px;
-    width: 400px;
-    height: 37px;
+    width: 500px;
+    height: 40px;
     border: 1px solid #ddd;
     border-radius: 30px;
     padding-left: 50px;
-    margin: 30px 0;
+    padding-right: 50px;
+    margin: 30px 0px ;
+    margin-right: 50px
 }
 .search_bar > input:hover {
     box-shadow: 0 0 5px  rgba(0,0,0, 0.2);
@@ -85,10 +107,10 @@ section {
     justify-content: center;
 }
 .search_buttons input {
-    color: #5F6368;
+    color: #3c4043;
     border: 1px solid #f2f2f2;
-    margin: 11px 4px;
-    padding: 0 16px;   
+    margin: 5px 4px;
+    padding: 0 20px;   
     line-height: 27px;
     height: 36px;
     cursor: pointer;
